@@ -11,7 +11,7 @@ if (!Object.keys(threads).includes(document.title.split('|')[1].trim())) {
     document.querySelectorAll('[class*="threadName-"]').forEach(function(u, i){
     // Put the thread in the channel array
      !threads[document.title.split('|')[1].trim()].includes(u.textContent) ? threads[document.title.split('|')[1].trim()].push(u.textContent) : '';
-    
+    // Test de commentaire
 
         
 })
